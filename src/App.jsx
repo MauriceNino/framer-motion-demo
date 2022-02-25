@@ -1,6 +1,6 @@
 import { AnimatePresence } from "framer-motion";
 import {
-  BrowserRouter,
+  HashRouter,
   Navigate,
   Route,
   Routes,
@@ -28,8 +28,8 @@ const Router = () => {
 
 export const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Router />
-    </BrowserRouter>
+    </HashRouter>
   );
 };
